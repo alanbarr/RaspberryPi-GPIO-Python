@@ -1,0 +1,3 @@
+[submodule "src/C-Library"]
+	path = src/C-Library
+	url = git://github.com/alanbarr/RaspberryPi-GPIO.git
