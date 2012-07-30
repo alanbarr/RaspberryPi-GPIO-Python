@@ -1,7 +1,5 @@
-This is a Python 3 wrapper for https://github.com/alanbarr/RaspberryPi-GPIO
+This is a Python (3) wrapper for https://github.com/alanbarr/RaspberryPi-GPIO
 and includes this repository as a submodule /src/C-Library.
-
-This was written to satisfy my curiosity at extending Python with C.
 
 #################### Building #################### 
 TODO: Submodules
@@ -11,7 +9,4 @@ Change directory to src:
 
 Issue the following command (this may have to be done as root):
     python3 setup.py install
-
-This will build the C library first then the Python module.
-
 
