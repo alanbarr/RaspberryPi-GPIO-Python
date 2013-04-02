@@ -4,7 +4,7 @@ import os
 
 gpioExtMod = Extension("gpyo",
                        library_dirs = ["C-Library/library"],
-                       libraries = ["RpiGpio"],
+                       libraries = ["rpigpio"],
                        include_dirs = ["C-Library/include"],
                        sources = ["gpiomodule.c"])
 
