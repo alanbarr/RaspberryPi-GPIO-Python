@@ -1,11 +1,13 @@
-This is a Python (3) wrapper for https://github.com/alanbarr/RaspberryPi-GPIO
+This is a Python3 wrapper for https://github.com/alanbarr/RaspberryPi-GPIO
 and includes this repository as a submodule /src/C-Library.
 
 #################### Building #################### 
+You will need the Python development package to build this module:
+    sudo apt-get install python3-dev
+
 Once you clone this repository, you first need to obtain the submodule:
 Enter the RaspberryPi-GPIO-Python directory and issue:
-    git submodule init
-    git submodule update
+    git submodule update --init
 
 Once that has downloaded, change directory to src:
     cd src
@@ -15,8 +17,7 @@ Issue the following command to install (this may have to be done as root):
 
 
 #################### Using #################### 
-To use this library you will need to run your python script as root.
-E.g.
+To use this library you will need to run your python script as root:
     sudo python3
 
 You can then import the module with:
@@ -24,3 +25,5 @@ You can then import the module with:
 
 Some python documentation is availble with:
     help("gpyo")
+
+
